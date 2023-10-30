@@ -1,3 +1,5 @@
 *.swp
 *.swo
-template_test
+dist/
+src/package_name.egg-info
+__pycache__/

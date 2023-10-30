@@ -3,7 +3,11 @@
 
 import sys
 
-if '--' in sys.argv: 
-    ARGV = sys.argv[1:sys.argv.index('--')] 
-else:
-    ARGV = sys.argv[1:]
+def process_array(array):
+    if '--' in array: 
+        result = array[1:array.index('--')] 
+    else:
+        result = array[1:]
+
+    return result
+
